@@ -327,6 +327,13 @@ apply_all_in_dir() {
     echo "WINE: --CUSTOM-- add WINE_HOSTBLOCK envvar to allow working around some problematic anticheats (notably eac)"
     apply_patch "../patches/proton/wine_host_block_envvar.patch"
 
+    # https://github.com/GloriousEggroll/proton-ge-custom/issues/433
+    echo "WINE: -PENDING- add Duet Knight Abyss fixes"
+    apply_patch "../patches/wine-hotfixes/pending/0009-HACK-kernel32-Spoof-GetProcAddress-of-KiUserApcDispa.patch"
+
+    echo "WINE: -RSEQ- Enable RSEQ timeslice extension for game threads (BobZKernel)"
+    apply_all_in_dir "../patches/rseq/"
+
     echo "WINE: RUN AUTOCONF TOOLS/MAKE_REQUESTS"
     autoreconf -f
     ./tools/make_requests
