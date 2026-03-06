@@ -1,0 +1,1576 @@
+~/buildstuff/proton-ge-rseq/dxvk ~/buildstuff/proton-ge-rseq
+HEAD is now at 3731c2f5 [meta] Fix descriptor heap config option name (#5502)
+~/buildstuff/proton-ge-rseq
+~/buildstuff/proton-ge-rseq/vkd3d-proton ~/buildstuff/proton-ge-rseq
+HEAD is now at a7e2609b dxil-spirv: Update submodule.
+~/buildstuff/proton-ge-rseq
+~/buildstuff/proton-ge-rseq/dxvk-nvapi ~/buildstuff/proton-ge-rseq
+HEAD is now at 6ba2991 nvapi-gpu: Clamp currently available memory
+~/buildstuff/proton-ge-rseq
+~/buildstuff/proton-ge-rseq/gstreamer ~/buildstuff/proton-ge-rseq
+HEAD is now at bf6ce1d64a Release 1.22.5
+Removing subprojects/gst-plugins-base/gst-libs/gst/gl/egl/gstglcontext_egl.c.orig
+Removing subprojects/gst-plugins-base/gst-libs/gst/gl/meson.build.orig
+Removing subprojects/gstreamer/docs/gst/running.md.orig
+Removing subprojects/gstreamer/docs/index.md.orig
+GSTREAMER: fix for unclosable invisible wayland opengl windows in taskbar
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/egl/gstglcontext_egl.c
+Hunk #1 succeeded at 912 (offset -13 lines).
+Hunk #2 succeeded at 1050 (offset -13 lines).
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/gstgldisplay.c
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/egl/gstgldisplay_egl.c
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/egl/gstgldisplay_egl.h
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/gstgldisplay.c
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/gstgldisplay.h
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/gstglwindow.c
+patching file subprojects/gst-plugins-base/gst-libs/gst/gl/meson.build
+Hunk #1 succeeded at 249 (offset -4 lines).
+Hunk #2 succeeded at 262 (offset -4 lines).
+Hunk #3 succeeded at 281 (offset -4 lines).
+Hunk #4 succeeded at 578 (offset -4 lines).
+patching file subprojects/gst-plugins-base/meson_options.txt
+patching file subprojects/gstreamer/docs/gst/running.md
+Hunk #1 succeeded at 314 (offset -1 lines).
+patching file subprojects/gstreamer/docs/index.md
+Hunk #1 succeeded at 323 (offset -2 lines).
+~/buildstuff/proton-ge-rseq
+~/buildstuff/proton-ge-rseq/protonfixes ~/buildstuff/proton-ge-rseq
+HEAD is now at d26ddf6 update fix for akiba's trip
+~/buildstuff/proton-ge-rseq
+~/buildstuff/proton-ge-rseq/wine ~/buildstuff/proton-ge-rseq
+HEAD is now at 1d3dc821c79 ntdll: When overriding dlls, update len.
+Removing .gitignore
+Removing COPYING.arial
+Removing COPYING.cour
+Removing COPYING.msyh
+Removing COPYING.times
+Removing autom4te.cache/
+Removing configure.ac.orig
+Removing configure.ac.rej
+Removing configure~
+Removing dlls/atidxx64/
+Removing dlls/coremessaging/async.c
+Removing dlls/coremessaging/async_private.idl
+Removing dlls/coremessaging/classes.idl
+Removing dlls/coremessaging/private.h
+Removing dlls/coremessaging/tests/
+Removing dlls/cryptext/tests/
+Removing dlls/d2d1/device.c.orig
+Removing dlls/dsound/dsound_eax.h
+Removing dlls/dsound/eax.c
+Removing dlls/dxgi/dxgi_main.c.orig
+Removing dlls/dxgkrnl.sys/
+Removing dlls/dxgmms1.sys/
+Removing dlls/gameinput/GameInput.c
+Removing dlls/gameinput/GameInput.spec
+Removing dlls/gameinput/version.rc
+Removing dlls/inseng/icif.c
+Removing dlls/inseng/inf.c
+Removing dlls/inseng/inseng_private.h
+Removing dlls/kernelbase/debug.c.orig
+Removing dlls/kernelbase/file.c.orig
+Removing dlls/kernelbase/loader.c.orig
+Removing dlls/kernelbase/registry.c.orig
+Removing dlls/mfplat/main.c.orig
+Removing dlls/mfsrcsnk/media_source.c.orig
+Removing dlls/ntdll/loader.c.orig
+Removing dlls/ntdll/ntdll_misc.h.orig
+Removing dlls/ntdll/ntsyscalls.h
+Removing dlls/ntdll/unix/file.c.orig
+Removing dlls/ntdll/unix/loader.c.orig
+Removing dlls/ntdll/unix/server.c.orig
+Removing dlls/ntdll/unix/sync.c.orig
+Removing dlls/ntdll/unix/unix_private.h.orig
+Removing dlls/ntdll/unix/virtual.c.orig
+Removing dlls/shell32/enumobjects.c
+Removing dlls/shell32/resources/ietoolbar.bmp
+Removing dlls/shell32/resources/ietoolbar.svg
+Removing dlls/shell32/resources/ietoolbar_small.bmp
+Removing dlls/shell32/resources/ietoolbar_small.svg
+Removing dlls/user32/input.c.orig
+Removing dlls/user32/tests/input.c.orig
+Removing dlls/user32/tests/win.c.orig
+Removing dlls/wdfldr.sys/
+Removing dlls/win32k.sys/
+Removing dlls/win32u/fsr_spv.h
+Removing dlls/win32u/input.c.orig
+Removing dlls/win32u/sysparams.c.orig
+Removing dlls/win32u/vulkan.c.orig
+Removing dlls/win32u/win32syscalls.h
+Removing dlls/win32u/win32u_private.h.orig
+Removing dlls/win32u/window.c.orig
+Removing dlls/winewayland.drv/color-management-v1.xml
+Removing dlls/winewayland.drv/content-type-v1.xml
+Removing dlls/winewayland.drv/cursor-shape-v1.xml
+Removing dlls/winewayland.drv/ext-data-control-v1.xml
+Removing dlls/winewayland.drv/fractional-scale-v1.xml
+Removing dlls/winewayland.drv/linux-dmabuf-v1.xml
+Removing dlls/winewayland.drv/pointer-warp-v1.xml
+Removing dlls/winewayland.drv/text-input-unstable-v3.xml
+Removing dlls/winewayland.drv/wayland_data_device.c
+Removing dlls/winewayland.drv/wayland_text_input.c
+Removing dlls/winewayland.drv/wlr-data-control-unstable-v1.xml
+Removing dlls/winewayland.drv/xdg-activation-v1.xml
+Removing dlls/winewayland.drv/xdg-system-bell-v1.xml
+Removing dlls/winewayland.drv/xdg-toplevel-icon-v1.xml
+Removing dlls/winewayland.drv/xdg-toplevel-tag-v1.xml
+Removing dlls/winex11.drv/window.c.orig
+Removing dlls/wininet/http.c.orig
+Removing dlls/wininet/tests/http.c.orig
+Removing dlls/xactengine3_7/tests/globals.xgs
+Removing dlls/xactengine3_7/tests/rsrc.rc
+Removing fonts/arial.sfd
+Removing fonts/arial.ttf
+Removing fonts/cour.sfd
+Removing fonts/cour.ttf
+Removing fonts/msyh.sfd
+Removing fonts/msyh.ttf
+Removing fonts/times.sfd
+Removing fonts/times.ttf
+Removing include/Makefile.in.orig
+Removing include/config.h.in~
+Removing include/imfbytestream_read_hack.h
+Removing include/powersetting.h
+Removing include/stdole32.idl
+Removing include/wine/ntsync.h
+Removing loader/wine.inf.in.orig
+Removing programs/wineboot/wineboot.c.orig
+Removing programs/winecfg/staging.c
+Removing server/inproc_sync.c
+Removing tools/makedep.c.orig
+WINE: -CUSTOM- ETAASH WINE-WAYLAND+ PATCHES
+patching file dlls/ntdll/sync.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/signal_arm64ec.c
+patching file dlls/ntdll/tests/sync.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/wow64/process.c
+patching file include/winternl.h
+patching file dlls/winegstreamer/unixlib.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/text-input-unstable-v3.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/wlr-data-control-unstable-v1.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/win32u/input.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/dllmain.c
+patching file dlls/winewayland.drv/unixlib.h
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/xdg-toplevel-icon-v1.xml
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/fractional-scale-v1.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/ntdll/unix/signal_arm.c
+patching file dlls/ntdll/unix/signal_i386.c
+patching file include/basetsd.h
+patching file include/ntdef.h
+patching file include/verrsrc.h
+patching file include/windef.h
+patching file include/winerror.h
+patching file include/winnt.h
+patching file .gitignore
+patching file dlls/winewayland.drv/opengl.c
+patching file loader/wine.inf.in
+patching file dlls/twinapi.appcore/tests/twinapi.c
+patching file programs/winecfg/appdefaults.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/win32u/window.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/window_surface.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window_surface.c
+patching file dlls/winewayland.drv/window_surface.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/ntdll/unix/loader.c
+patching file dlls/kernelbase/process.c
+patching file dlls/kernelbase/process.c
+patching file dlls/kernelbase/process.c
+patching file dlls/kernelbase/process.c
+patching file dlls/kernelbase/process.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/ntdll/unix/env.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winedmo/unix_demuxer_mediaconv.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/color-management-v1.xml
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winebus.sys/bus_udev.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/wayland_tray.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winegstreamer/unixlib.c
+patching file dlls/winegstreamer/unixlib.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winebus.sys/bus_udev.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/xdg-system-bell-v1.xml
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/xdg-activation-v1.xml
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/window_surface.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/window_surface.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file configure.ac
+patching file dlls/atidxx64/Makefile.in
+patching file dlls/atidxx64/atidxx.h
+patching file dlls/atidxx64/atidxx64.spec
+patching file dlls/atidxx64/dxvk_interfaces.idl
+patching file dlls/atidxx64/main.c
+patching file loader/wine.inf.in
+patching file loader/wine.inf.in
+patching file dlls/win32u/sysparams.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/kernel32/kernel32.spec
+patching file dlls/kernel32/sync.c
+patching file dlls/kernel32/kernel32.spec
+patching file dlls/kernel32/tests/heap.c
+patching file dlls/kernelbase/kernelbase.spec
+patching file dlls/kernelbase/memory.c
+patching file include/winbase.h
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/signal_arm64ec.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/wow64/virtual.c
+patching file include/winternl.h
+patching file dlls/kernelbase/kernelbase.spec
+patching file dlls/kernelbase/sync.c
+patching file include/memoryapi.h
+patching file include/winbase.h
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winebus.sys/main.c
+patching file dlls/opengl32/unix_wgl.c
+patching file dlls/opengl32/wgl.c
+patching file dlls/opengl32/wgl.c
+patching file dlls/opengl32/unix_wgl.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/win32u/imm.c
+patching file dlls/imm32/ime.c
+patching file dlls/win32u/imm.c
+patching file dlls/wow64win/user.c
+patching file include/ntuser.h
+patching file dlls/win32u/imm.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winemac.drv/cocoa_window.m
+patching file dlls/winemac.drv/event.c
+patching file dlls/winemac.drv/macdrv_cocoa.h
+patching file dlls/winex11.drv/xim.c
+patching file dlls/winex11.drv/xim.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/imm32/ime.c
+patching file dlls/opengl32/wgl.c
+patching file dlls/ntoskrnl.exe/tests/driver_pnp.c
+patching file dlls/ntoskrnl.exe/tests/driver_pnp.c
+patching file dlls/ntoskrnl.exe/tests/ntoskrnl.c
+patching file include/ddk/wdm.h
+patching file dlls/ntoskrnl.exe/tests/driver.h
+patching file dlls/ntoskrnl.exe/tests/driver_pnp.c
+patching file dlls/ntoskrnl.exe/tests/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/pnp.c
+patching file dlls/ntoskrnl.exe/tests/driver_pnp.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/sync.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/sync.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/winewayland.drv/vulkan.c
+patching file dlls/win32u/window.c
+patching file dlls/win32u/window.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/winewayland.drv/vulkan.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/cursor-shape-v1.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/atidxx64/main.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntdll/unix/esync.h
+patching file dlls/ntdll/unix/fsync.h
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntdll/unix/unix_private.h
+patching file include/wine/server_protocol.h
+patching file server/Makefile.in
+patching file server/inproc_sync.c
+patching file server/protocol.def
+patching file server/request_handlers.h
+patching file server/request_trace.h
+patching file dlls/ntdll/unix/sync.c
+patching file include/Makefile.in
+patching file include/wine/ntsync.h
+patching file include/wine/server_protocol.h
+patching file server/async.c
+patching file server/atom.c
+patching file server/change.c
+patching file server/clipboard.c
+patching file server/completion.c
+patching file server/console.c
+patching file server/debugger.c
+patching file server/device.c
+patching file server/directory.c
+patching file server/esync.c
+patching file server/event.c
+patching file server/fd.c
+patching file server/file.c
+patching file server/fsync.c
+patching file server/handle.c
+patching file server/hook.c
+patching file server/inproc_sync.c
+patching file server/mailslot.c
+patching file server/mapping.c
+patching file server/mutex.c
+patching file server/named_pipe.c
+patching file server/object.c
+patching file server/object.h
+patching file server/process.c
+patching file server/protocol.def
+patching file server/queue.c
+patching file server/registry.c
+patching file server/request.c
+patching file server/semaphore.c
+patching file server/serial.c
+patching file server/signal.c
+patching file server/sock.c
+patching file server/symlink.c
+patching file server/thread.c
+patching file server/timer.c
+patching file server/token.c
+patching file server/window.c
+patching file server/winstation.c
+patching file dlls/ntdll/unix/esync.c
+patching file dlls/ntdll/unix/file.c
+patching file dlls/ntdll/unix/fsync.c
+patching file dlls/ntdll/unix/process.c
+patching file dlls/ntdll/unix/server.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntdll/unix/thread.c
+patching file dlls/ntdll/unix/unix_private.h
+patching file dlls/ntdll/unix/virtual.c
+patching file include/wine/server_protocol.h
+patching file server/change.c
+patching file server/completion.c
+patching file server/console.c
+patching file server/debugger.c
+patching file server/device.c
+patching file server/esync.c
+patching file server/event.c
+patching file server/fd.c
+patching file server/file.h
+patching file server/fsync.c
+patching file server/inproc_sync.c
+patching file server/mailslot.c
+patching file server/main.c
+patching file server/mutex.c
+patching file server/named_pipe.c
+patching file server/object.h
+patching file server/process.c
+patching file server/process.h
+patching file server/protocol.def
+patching file server/queue.c
+patching file server/request_handlers.h
+patching file server/request_trace.h
+patching file server/semaphore.c
+patching file server/serial.c
+patching file server/sock.c
+patching file server/thread.c
+patching file server/thread.h
+patching file server/timer.c
+patching file server/console.c
+patching file server/main.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntdll/unix/unix_private.h
+patching file dlls/winewayland.drv/display.c
+patching file dlls/ntoskrnl.exe/instr.c
+patching file dlls/ntoskrnl.exe/instr.c
+patching file configure.ac
+patching file dlls/wdfldr.sys/Makefile.in
+patching file dlls/wdfldr.sys/main.c
+patching file dlls/wdfldr.sys/wdfldr.sys.spec
+patching file dlls/kernelbase/process.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/wayland_tray.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file server/token.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/winewayland.drv/display.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/hal/hal.spec
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntdll/version.rc
+patching file include/wine/wine_common_ver.rc
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/ntoskrnl.exe/sync.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/pnp.c
+patching file include/wine/server_protocol.h
+patching file server/device.c
+patching file server/protocol.def
+patching file server/request_handlers.h
+patching file server/request_trace.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/kernelbase/process.c
+patching file dlls/kernel32/kernel32.spec
+patching file dlls/kernelbase/kernelbase.spec
+patching file dlls/kernelbase/memory.c
+patching file dlls/ntdll/unix/system.c
+patching file dlls/mountmgr.sys/device.c
+patching file include/ntddstor.h
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/kernel32/kernel32.spec
+patching file dlls/kernel32/kernel_main.c
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntdll/unix/file.c
+patching file programs/wineboot/wineboot.c
+patching file dlls/cfgmgr32/cfgmgr32.spec
+patching file dlls/cfgmgr32/main.c
+patching file include/cfgmgr32.h
+patching file dlls/winex11.drv/window.c
+patching file dlls/powrprof/powrprof.c
+patching file dlls/powrprof/powrprof.spec
+patching file include/Makefile.in
+patching file include/powersetting.h
+patching file dlls/combase/combase.spec
+patching file dlls/combase/roapi.c
+patching file include/roerrorapi.h
+patching file dlls/kernel32/kernel32.spec
+patching file dlls/kernelbase/kernelbase.spec
+patching file dlls/kernelbase/version.c
+patching file dlls/msvcp_win/msvcp_win.spec
+patching file dlls/ntdll/ntsyscalls.h
+patching file dlls/user32/user32.spec
+patching file dlls/win32u/main.c
+patching file dlls/win32u/sysparams.c
+patching file dlls/win32u/win32syscalls.h
+patching file dlls/win32u/win32u.spec
+patching file dlls/wow64win/user.c
+patching file include/ntuser.h
+patching file dlls/dinput/device.c
+patching file dlls/ntdll/unix/virtual.c
+patching file dlls/ntdll/unix/virtual.c
+patching file dlls/ntdll/unix/cdrom.c
+patching file dlls/ntdll/unix/socket.c
+patching file dlls/kernel32/kernel32.spec
+patching file dlls/kernelbase/kernelbase.spec
+patching file dlls/ntdll/loader.c
+patching file dlls/gdiplus/tests/image.c
+patching file dlls/gdiplus/tests/resource.rc
+File dlls/gdiplus/tests/wine_test.ico: git binary diffs are not supported.
+patching file dlls/gdiplus/image.c
+patching file dlls/gdiplus/tests/image.c
+patching file dlls/sane.ds/ui.c
+patching file dlls/dwmapi/Makefile.in
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/ntdll/tests/file.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/wow64/file.c
+patching file include/winnt.h
+patching file include/winnt.h
+patching file server/file.h
+patching file include/winnt.h
+patching file dlls/kernel32/tests/module.c
+patching file dlls/kernel32/tests/loader.c
+patching file dlls/kernel32/tests/loader.c
+patching file loader/wine.inf.in
+patching file dlls/ntdll/tests/info.c
+patching file dlls/ntdll/unix/system.c
+patching file dlls/wow64/system.c
+patching file dlls/ntdll/loader.c
+patching file dlls/ntdll/unix/loader.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/content-type-v1.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/ntdll/unix/virtual.c
+patching file dlls/kernel32/kernel32.spec
+patching file dlls/kernel32/kernel_main.c
+patching file dlls/kernelbase/kernelbase.spec
+patching file dlls/kernelbase/main.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/linux-dmabuf-v1.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file include/ntdef.h
+patching file include/winternl.h
+patching file dlls/ntdll/actctx.c
+patching file dlls/ntdll/loader.c
+patching file dlls/ntdll/path.c
+patching file dlls/ntdll/relay.c
+patching file dlls/ntdll/thread.c
+patching file dlls/ntdll/version.c
+patching file dlls/user32/input.c
+patching file dlls/user32/user32.spec
+patching file dlls/user32/input.c
+patching file dlls/user32/user32.spec
+patching file dlls/user32/input.c
+patching file dlls/user32/user32.spec
+patching file dlls/ntdll/unix/system.c
+patching file dlls/actxprxy/usrmarshal.c
+patching file dlls/shell32/Makefile.in
+patching file dlls/shell32/enumobjects.c
+patching file dlls/shell32/shell32_classes.idl
+patching file dlls/shell32/shell32_main.h
+patching file dlls/shell32/shellole.c
+patching file include/shobjidl.idl
+patching file dlls/shell32/enumobjects.c
+patching file dlls/ntdll/ntdll.spec
+patching file server/fd.c
+patching file configure.ac
+patching file server/fd.c
+patching file server/fd.c
+patching file server/fd.c
+patching file dlls/version/tests/info.c
+patching file dlls/kernelbase/version.c
+patching file dlls/version/tests/info.c
+patching file dlls/shcore/main.c
+patching file dlls/cfgmgr32/tests/cfgmgr32.c
+patching file include/cfgmgr32.h
+patching file dlls/dinput/tests/Makefile.in
+patching file dlls/dinput/tests/hotplug.c
+patching file dlls/cfgmgr32/Makefile.in
+patching file dlls/cfgmgr32/main.c
+patching file dlls/cfgmgr32/tests/cfgmgr32.c
+patching file dlls/dinput/tests/hotplug.c
+patching file dlls/ntdll/tests/sync.c
+patching file dlls/ntdll/tests/sync.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/msvcrt/file.c
+patching file dlls/msvcrt/file.c
+patching file dlls/msvcrt/tests/file.c
+patching file dlls/ntdll/env.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl_private.h
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/xdg-toplevel-tag-v1.xml
+patching file dlls/ntdll/unix/virtual.c
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/winewayland.drv/vulkan.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/kernelbase/process.c
+patching file loader/wine.inf.in
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file .gitignore
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/msvcrt/concurrency.c
+patching file dlls/wininet/http.c
+patching file include/wininet.h
+patching file dlls/winhttp/request.c
+patching file dlls/winhttp/tests/winhttp.c
+patching file dlls/urlmon/http.c
+patching file dlls/iphlpapi/iphlpapi.spec
+patching file dlls/iphlpapi/iphlpapi_main.c
+patching file include/iphlpapi.h
+patching file dlls/iphlpapi/iphlpapi.spec
+patching file dlls/iphlpapi/iphlpapi_main.c
+patching file include/iphlpapi.h
+patching file dlls/win32u/window.c
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/ntdll/tests/string.c
+patching file dlls/ntdll/wcstring.c
+patching file dlls/winex11.drv/window.c
+patching file dlls/winegstreamer/unixlib.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/window.c
+patching file libs/fluidsynth/glib.h
+patching file dlls/amdxc64/amdxc_interfaces.idl
+patching file dlls/amdxc64/main.c
+patching file dlls/amdxc64/amdxc_interfaces.idl
+patching file dlls/amdxc64/main.c
+patching file dlls/amdxc64/main.c
+patching file dlls/amdxc64/amdxc_interfaces.idl
+patching file dlls/amdxc64/main.c
+patching file dlls/ntdll/loader.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/win32u/input.c
+patching file dlls/win32u/ntuser_private.h
+patching file configure.ac
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/win32u/input.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/window.c
+patching file dlls/win32u/input.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/win32u/input.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/pointer-warp-v1.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/vulkan.c
+patching file dlls/ntdll/tests/exception.c
+patching file dlls/ntdll/tests/exception.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file dlls/ntdll/unix/signal_i386.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file include/wine/asm.h
+patching file dlls/msvcp90/cxx.h
+patching file dlls/msvcrt/cxx.h
+patching file dlls/ntdll/unix/signal_i386.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file include/wine/asm.h
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file include/wine/asm.h
+patching file dlls/ntdll/signal_arm64ec.c
+patching file dlls/ntdll/tests/virtual.c
+patching file dlls/ntdll/unix/signal_arm.c
+patching file dlls/ntdll/unix/signal_arm64.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file dlls/ntdll/tests/exception.c
+patching file dlls/ntdll/unix/signal_x86_64.c
+patching file dlls/ntdll/heap.c
+patching file dlls/ntdll/unix/server.c
+patching file dlls/msvcrt/undname.c
+patching file dlls/msvcrt/locale.c
+patching file dlls/msvcrt/locale.c
+patching file dlls/ws2_32/tests/sock.c
+patching file dlls/ws2_32/socket.c
+patching file dlls/ws2_32/tests/sock.c
+patching file dlls/ntdll/Makefile.in
+patching file dlls/ntdll/rtl.c
+patching file include/ddk/ntddk.h
+patching file include/ntdef.h
+patching file include/ddk/ntddk.h
+patching file dlls/win32u/main.c
+patching file dlls/win32u/win32syscalls.h
+patching file tools/make_specfiles
+patching file dlls/kernel32/Makefile.in
+patching file dlls/kernelbase/Makefile.in
+patching file dlls/ntdll/Makefile.in
+patching file dlls/win32u/Makefile.in
+patching file dlls/wow64/Makefile.in
+patching file dlls/wow64cpu/Makefile.in
+patching file dlls/wow64win/Makefile.in
+patching file dlls/xtajit64/Makefile.in
+patching file tools/makedep.c
+patching file tools/makedep.c
+patching file tools/tools.h
+patching file tools/widl/widl.c
+patching file tools/winebuild/import.c
+patching file tools/make_makefiles
+patching file tools/makedep.c
+patching file tools/makedep.c
+patching file tools/makedep.c
+patching file tools/winegcc/Makefile.in
+patching file tools/winegcc/utils.c
+patching file tools/winegcc/utils.h
+patching file tools/winegcc/winegcc.c
+patching file tools/winegcc/winegcc.c
+patching file tools/makedep.c
+patching file tools/winegcc/winegcc.c
+patching file tools/winegcc/winegcc.c
+patching file tools/winegcc/winegcc.c
+patching file tools/winegcc/winegcc.c
+patching file tools/winegcc/winegcc.c
+patching file dlls/ntdll/signal_x86_64.c
+patching file configure.ac
+patching file dlls/coremessaging/Makefile.in
+patching file dlls/coremessaging/classes.idl
+patching file dlls/coremessaging/coremessaging.spec
+patching file dlls/coremessaging/main.c
+patching file dlls/coremessaging/private.h
+patching file dlls/coremessaging/tests/Makefile.in
+patching file dlls/coremessaging/tests/coremessaging.c
+patching file include/windows.system.idl
+patching file dlls/coremessaging/Makefile.in
+patching file dlls/coremessaging/tests/Makefile.in
+patching file dlls/coremessaging/tests/coremessaging.c
+patching file dlls/coremessaging/tests/coremessaging.c
+patching file dlls/coremessaging/Makefile.in
+patching file dlls/coremessaging/async.c
+patching file dlls/coremessaging/async_private.idl
+patching file dlls/coremessaging/main.c
+patching file dlls/coremessaging/private.h
+patching file dlls/coremessaging/tests/coremessaging.c
+patching file dlls/ntdll/unix/virtual.c
+patching file tools/winebuild/parser.c
+patching file tools/winebuild/winebuild.man.in
+patching file dlls/ntdll/ntsyscalls.h
+patching file dlls/ntdll/signal_arm.c
+patching file dlls/ntdll/signal_arm64.c
+patching file dlls/ntdll/signal_arm64ec.c
+patching file dlls/ntdll/signal_i386.c
+patching file dlls/ntdll/signal_x86_64.c
+patching file dlls/ntdll/unix/loader.c
+patching file dlls/sechost/sechost.spec
+patching file dlls/win32u/main.c
+patching file dlls/win32u/syscall.c
+patching file dlls/win32u/win32syscalls.h
+patching file tools/make_specfiles
+patching file dlls/ntdll/ntsyscalls.h
+patching file dlls/win32u/win32syscalls.h
+patching file tools/make_specfiles
+patching file tools/make_specfiles
+patching file dlls/atiadlxx/atiadlxx.spec
+patching file dlls/atiadlxx/atiadlxx_main.c
+patching file dlls/kernelbase/process.c
+patching file dlls/win32u/window.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/kernelbase/sync.c
+patching file dlls/kernelbase/sync.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/kernel32/tests/sync.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/winewayland.drv/Makefile.in
+patching file dlls/winewayland.drv/ext-data-control-v1.xml
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/winewayland.drv/wayland_data_device.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/ntsyscalls.h
+patching file dlls/ntdll/signal_arm64ec.c
+patching file dlls/ntdll/unix/process.c
+patching file dlls/wow64/process.c
+patching file include/wine/server_protocol.h
+patching file include/winternl.h
+patching file server/process.c
+patching file server/protocol.def
+patching file server/request_handlers.h
+patching file server/request_trace.h
+patching file dlls/ntdll/ntdll.spec
+patching file tools/winedump/pe.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/ntsyscalls.h
+patching file dlls/ntdll/ntdll.spec
+patching file tools/make_specfiles
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/ntsyscalls.h
+patching file dlls/ntdll/signal_arm64ec.c
+patching file dlls/ntdll/unix/security.c
+patching file dlls/wow64/security.c
+patching file dlls/wow64/struct32.h
+patching file include/winnt.h
+patching file include/winternl.h
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/ntsyscalls.h
+patching file dlls/ntdll/signal_arm64ec.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/wow64/sync.c
+patching file include/winternl.h
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/amdxc64/main.c
+patching file dlls/atidxx64/main.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/win32u/input.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/win32u/input.c
+patching file dlls/iphlpapi/iphlpapi.spec
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/ntdll/unix/env.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/win32u/message.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/win32u/defwnd.c
+patching file dlls/win32u/input.c
+patching file include/wine/server_protocol.h
+patching file server/protocol.def
+patching file server/request_handlers.h
+patching file server/request_trace.h
+patching file server/thread.c
+patching file server/thread.h
+patching file server/winstation.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/win32u/message.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/vulkan.c
+patching file server/queue.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/amdxc64/main.c
+patching file dlls/amdxc64/amdxc_interfaces.idl
+patching file dlls/amdxc64/main.c
+patching file dlls/win32u/window.c
+patching file loader/wine.inf.in
+patching file dlls/atidxx64/atidxx.h
+patching file dlls/atidxx64/main.c
+patching file dlls/atiadlxx/atiadlxx_main.c
+patching file dlls/amdxc64/main.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/opengl.c
+patching file dlls/advapi32/registry.c
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_output.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/display.c
+patching file dlls/user32/tests/monitor.c
+patching file dlls/user32/tests/monitor.c
+patching file dlls/win32u/sysparams.c
+patching file dlls/win32u/sysparams.c
+patching file include/wine/gdi_driver.h
+patching file dlls/winewayland.drv/display.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/ntdll.spec
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file include/ddk/ntddk.h
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/ntdll/rtl.c
+patching file dlls/ntdll/tests/rtl.c
+patching file dlls/amdxc64/main.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/window_surface.c
+patching file dlls/winewayland.drv/window_surface.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/win32u/window.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/winedmo/unix_demuxer.c
+patching file dlls/appwiz.cpl/addons.c
+patching file dlls/shell32/recyclebin.c
+patching file programs/winemenubuilder/winemenubuilder.c
+patching file dlls/mfplat/main.c
+patching file dlls/mfplat/main.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winewayland.drv/wayland_keyboard.c
+patching file dlls/winegstreamer/wm_reader.c
+patching file dlls/user32/input.c
+patching file dlls/win32u/input.c
+patching file dlls/ntdll/unix/sync.c
+patching file dlls/ntoskrnl.exe/ntoskrnl.exe.spec
+patching file dlls/ntoskrnl.exe/sync.c
+patching file dlls/winewayland.drv/wayland_pointer.c
+patching file dlls/winewayland.drv/wayland_surface.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/wayland.c
+patching file dlls/win32u/driver.c
+patching file include/wine/gdi_driver.h
+patching file dlls/winewayland.drv/wayland_text_input.c
+patching file dlls/winewayland.drv/waylanddrv.h
+patching file dlls/winewayland.drv/waylanddrv_main.c
+patching file dlls/winewayland.drv/window.c
+patching file dlls/imm32/tests/imm32.c
+patching file dlls/win32u/imm.c
+patching file dlls/ntdll/threadpool.c
+WINE: ntsync hotfix from paul
+patching file dlls/ntdll/unix/thread.c
+WINE: -STAGING- applying staging patches
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/advapi32-LsaLookupPrivilegeName/0001-advapi32-Fix-error-code-when-calling-LsaOpenPolicy-f.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/comctl32-rebar-capture/0001-comctl32-Fixed-rebar-behaviour-when-there-s-capture-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/comctl32-version_6/0001-comctl32-Bump-version-to-6.0.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/comdlg32-lpstrFileTitle/0001-comdlg32-Postpone-setting-ofn-lpstrFileTitle-to-work.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/crypt32-CMS_Certificates/0001-crypt32-Skip-unknown-item-when-decoding-a-CMS-certif.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/d3dx9-sprite-state/0001-d3dx9-Improve-handling-of-Sprite-render-states.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/d3dx9_36-Filter_Warnings/0001-d3dx9_36-Filter-out-D3DCompile-warning-messages-that.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/d3dx9_36-UpdateSkinnedMesh/0001-d3dx9_36-Implement-ID3DXSkinInfoImpl_UpdateSkinnedMe.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/d3dx9_36_controller/0001-d3dx9-D3DXLoadMeshHierarchyFromXInMemory-return-defa.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/d3dx9_36_controller/0003-d3dx9-HACK-D3DXIntersect-Assign-hit-to-FALSE.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/d3dx9_SetRawValue/0001-d3dx9-Implement-d3dx_effect_SetRawValue.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/d3dx9_SetRawValue/0002-d3dx9-tests-Implement-tests-for-d3dx_effect_SetRawVa.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ddraw-Device_Caps/0002-ddraw-Set-dwZBufferBitDepth-in-ddraw7_GetCaps.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ddraw-GetPickRecords/0001-ddraw-Implement-Pick-and-GetPickRecords.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ddraw-IDirect3DTexture2_Load/0001-ddraw-Allow-size-and-format-conversions-in-IDirect3D.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ddraw-IDirect3DTexture2_Load/0002-ddraw-tests-Add-more-tests-for-IDirect3DTexture2-Loa.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ddraw-version-check/0001-ddraw-Return-correct-devices-based-off-requested-Dir.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dinput-scancode/0001-dinput-Factor-keyboard-initialization-and-enumeratio.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dinput-scancode/0002-dinput-Avoid-duplicated-objects-in-keyboard-devices.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dinput-scancode/0003-dinput-Enumerate-lower-keyboard-scancodes-values-fir.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dmime_segment_getaudiopath/0001-dmime-Semi-implement-IDirectMusicSegment-GetAudioPat.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dmscript_enum_routine/0001-dmscript-IDirectMusicScript-EnumRoutine-return-S_FAL.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-Fast_Mixer/0001-dsound-Add-a-linear-resampler-for-use-with-a-large-n.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0001-dsound-Apply-filters-before-sound-is-multiplied-to-s.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0002-dsound-Add-EAX-v1-constants-and-structs.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0003-dsound-Report-that-we-support-EAX-v1.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0004-dsound-Add-EAX-propset-stubs.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0005-dsound-Add-EAX-presets.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0006-dsound-Support-getting-and-setting-EAX-properties.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0007-dsound-Support-getting-and-setting-EAX-buffer-proper.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0008-dsound-Add-EAX-init-and-free-stubs.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0009-dsound-Feed-data-through-EAX-function.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0010-dsound-Allocate-EAX-delay-lines.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0011-dsound-Add-EAX-VerbPass-stub.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0012-dsound-Implement-EAX-lowpass-filter.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0013-dsound-Add-delay-line-EAX-functions.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0014-dsound-Implement-EAX-early-reflections.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0015-dsound-Implement-EAX-decorrelator.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0016-dsound-Implement-EAX-late-reverb.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0017-dsound-Implement-EAX-late-all-pass-filter.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0018-dsound-Various-improvements-to-EAX-support.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0019-dsound-Allow-disabling-of-EAX-support-in-the-registr.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0020-dsound-Add-stub-support-for-DSPROPSETID_EAX20_Listen.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0021-dsound-Add-stub-support-for-DSPROPSETID_EAX20_Buffer.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0022-dsound-Enable-EAX-by-default.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dsound-EAX/0023-dsound-Fake-success-for-EAX-Set-Buffer-ListenerPrope.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/dxgi_getFrameStatistics/0001-dxgi-Semi-stub-IDXGISwapChain4-GetFrameStatistics.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/explorer-Video_Registry_Key/0001-explorer-Create-CurrentControlSet-Control-Video-regi.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/fonts-Missing_Fonts/0001-fonts-Add-Liberation-Sans-as-an-Arial-replacement.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/fonts-Missing_Fonts/0002-fonts-Add-Liberation-Serif-as-an-Times-New-Roman-rep.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/fonts-Missing_Fonts/0003-fonts-Add-Liberation-Mono-as-an-Courier-New-replacem.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/fonts-Missing_Fonts/0004-fonts-Add-WenQuanYi-Micro-Hei-as-a-Microsoft-Yahei-r.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/fonts-Missing_Fonts/0005-Add-licenses-for-fonts-as-separate-files.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gdiplus-Performance-Improvements/0003-gdiplus-Remove-ceilf-floorf-calls-from-bilinear-scal.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gdiplus-Performance-Improvements/0004-gdiplus-Prefer-using-pre-multiplied-ARGB-data-in-the.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/inseng-Implementation/0001-inseng-Implement-CIF-reader-and-download-functions.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/krnl386.exe16-GDT_LDT_Emulation/0001-krnl386.exe16-Emulate-GDT-and-LDT-access.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/mountmgr-DosDevices/0001-mountmgr.sys-Write-usable-device-paths-into-HKLM-SYS.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/mshtml-TranslateAccelerator/0001-mshtml-Improve-IOleInPlaceActiveObject-TranslateAcce.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/msi-cabinet/0001-msi-Only-process-cabinet-files-if-it-exists.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/msxml3-write_out_doc/0001-msxml3-Write-to-DOMDocument-mxwriter-destination-in-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ntdll-APC_Performance/0001-ntdll-Reuse-old-async-fileio-structures-if-possible.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ntdll-Exception/0002-ntdll-OutputDebugString-should-throw-the-exception-a.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ntdll-NtSetLdtEntries/0001-ntdll-Implement-NtSetLdtEntries.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ntdll-NtSetLdtEntries/0002-libs-wine-Allow-to-modify-reserved-LDT-entries.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ntdll-Serial_Port_Detection/0001-ntdll-Do-a-device-check-before-returning-a-default-s.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ntdll-WRITECOPY/0010-kernelbase-Correct-return-value-in-VirtualProtect-fo.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/ntdll-WRITECOPY/0011-kernelbase-Handle-NULL-old_prot-parameter-in-Virtual.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0007-odbc32-Load-function-pointer-for-SQLBindParam.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0008-odbc32-SQLBindParameter-handle-fallback-function.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0009-odbc32-SQLSetConnectAttr-W-handle-fallback-function.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0012-odbc32-Record-loaded-driver-SQL_ATTR_ODBC_VERSION.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0013-odbc32-SQLGetData-support-ODBC-v2.0.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0014-odbc32-SQLColAttributesW-support-ODBC-v2.0.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0015-odbc32-SQLSetStmtAttrW-support-fallback-for-ODBC-v2..patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/odbc32-fixes/0018-odbc32-SQLColAttributes-W-fall-throught-for-unknown-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-CreateTypeLib/0001-oleaut32-Implement-semi-stub-for-CreateTypeLib.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-Load_Save_EMF/0001-oleaut32-tests-Add-some-tests-for-loading-and-saving.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-Load_Save_EMF/0002-oleaut32-Add-support-for-loading-and-saving-EMF-to-I.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-OLEPictureImpl_SaveAsFile/0002-oleaut32-Implement-a-better-stub-for-IPicture-SaveAs.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-OLEPictureImpl_SaveAsFile/0003-oleaut32-Implement-SaveAsFile-for-PICTYPE_ENHMETAFIL.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-OleLoadPicture/0001-oleaut32-OleLoadPicture-should-create-a-DIB-section-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-OleLoadPicture/0002-oleaut32-Make-OleLoadPicture-load-DIBs-using-WIC-dec.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/oleaut32-default-pic-size/0001-oleaut32-preferentially-load-icons-having-the-desire.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/riched20-IText_Interface/0003-riched20-Stub-for-ITextPara-interface-and-implement-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/sapi-ISpObjectToken-CreateInstance/0004-sapi-ISpObjectToken-CreateInstance-support-ISpAudio.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0001-scrrun-Implement-MoveFolder.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0002-scrrun-Check-for-null-and-empty-arguments-in-MoveFol.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0003-scrrun-Test-MoveFolder-with-already-existing-destina.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0004-scrrun-Check-for-non-existant-source-in-MoveFolder.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0005-scrrun-Check-that-source-is-directory-in-MoveFolder.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0006-scrrun-Move-source-dir-into-destination-dir-if-desti.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0007-scrrun-Support-wildcards-in-MoveFolder.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0008-scrrun-Move-directories-only-in-MoveFolder.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0009-scrrun-return-path-not-found-error-if-source-ends-wi.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/scrrun_move_folder/0010-scrrun-Return-path-not-found-error-if-no-folders-wer.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shdocvw-ParseURLFromOutsideSource_Tests/0001-shdocvw-Check-precisely-ParseURLFromOutsideSourceX-r.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shell32-IconCache/0001-shell32-iconcache-Generate-icons-from-available-icons-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shell32-SFGAO_HASSUBFOLDER/0002-shell32-Set-SFGAO_HASSUBFOLDER-correctly-for-normal-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shell32-SHGetStockIconInfo/0001-shell32-Improve-semi-stub-SHGetStockIconInfo-try-fin.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shell32-Toolbar_Bitmaps/0001-shell32-Add-toolbar-bitmaps-compatible-with-IE6.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shell32-Toolbar_Bitmaps/0002-shell32-Add-more-Tango-icons-to-the-IE-toolbar.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shlwapi-AssocGetPerceivedType/0001-shlwapi-tests-Add-tests-for-AssocGetPerceivedType.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/shlwapi-AssocGetPerceivedType/0002-shlwapi-Implement-AssocGetPerceivedType.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/stdole32.idl-Typelib/0001-include-Make-stdole32.idl-a-public-component.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-DM_SETDEFID/0001-user32-Do-not-initialize-dialog-info-for-every-windo.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-DM_SETDEFID/0002-user32-Use-root-dialog-for-DM_SETDEFID-DM_GETDEFID-i.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-DM_SETDEFID/0003-user32-tests-Add-a-bunch-of-tests-for-DM_SETDEFID-DM.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-Dialog_Paint_Event/0001-user32-Call-UpdateWindow-during-DIALOG_CreateIndirec.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-DrawTextExW/0001-user32-Fix-handling-of-invert_y-in-DrawTextExW.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-Implement-CascadeWindows/0001-user32-Implement-CascadeWindows.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-Implement-CascadeWindows/0002-user32-Implement-TileWindows.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-LR_LOADFROMFILE/0001-user32-Add-a-workaround-for-Windows-3.1-apps-which-c.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-ListBox_Size/0001-user32-Fix-calculation-of-listbox-size-when-horizont.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-Refresh_MDI_Menus/0001-user32-Refresh-MDI-menus-when-DefMDIChildProcW-WM_SE.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-ScrollWindowEx/0001-user32-Fix-return-value-of-ScrollWindowEx-for-invisi.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-message-order/0001-user32-Fix-messages-sent-on-a-window-without-WS_CHIL.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-msgbox-Support-WM_COPY-mesg/0001-user32-msgbox-Support-WM_COPY-Message.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/user32-msgbox-Support-WM_COPY-mesg/0002-user32-msgbox-Use-a-windows-hook-to-trap-Ctrl-C.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wbemdisp-ISWbemObject-Invoke/0001-wbemdisp-Support-DISPATCH_METHOD-in-ISWbemObject-Inv.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wbemdisp-ISWbemObject-Invoke/0002-vbscript-Support-VT_BSTR-VT_ARRAY-Iterator.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wbemdisp-ISWbemObject-Invoke/0003-wbemprox-Support-VT_BYREF-in-to_longlong.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wbemdisp-ISWbemObject-Invoke/0004-vbscript-Add-wmi-test.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/widl-SLTG_Typelib_Support/0021-oleaut32-Fix-logic-for-deciding-whether-type-descrip.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/widl-SLTG_Typelib_Support/0023-oleaut32-Implement-decoding-of-SLTG-help-strings.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/widl-SLTG_Typelib_Support/0024-oleaut32-Add-support-for-decoding-SLTG-function-help.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/widl-SLTG_Typelib_Support/0025-oleaut32-Add-support-for-decoding-SLTG-variable-help.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/win32u-NtGdiExtTextOutW-rotation/0001-win32u-Fix-device-world-width-height-converters.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/win32u-NtGdiExtTextOutW-rotation/0002-win32u-NtGdiExtTextOutW-should-translate-x-y-from-lo.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/windowscodecs-GIF_Encoder/0007-windowscodecs-tests-Add-IWICBitmapEncoderInfo-test.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/windowscodecs-TIFF_Support/0015-windowscodecs-Tolerate-partial-reads-in-the-IFD-meta.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/windowscodecs-TIFF_Support/0016-gdiplus-Add-support-for-more-image-color-formats.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/windowscodecs-TIFF_Support/0017-gdiplus-tests-Add-some-tests-for-loading-TIFF-images.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wine.inf-Dummy_CA_Certificate/0001-wine.inf.in-Add-invalid-dummy-certificate-to-CA-cert.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wineboot-HKEY_DYN_DATA/0001-wineboot-Add-some-generic-hardware-in-HKEY_DYN_DATA-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winecfg-Libraries/0001-winecfg-Double-click-in-dlls-list-to-edit-item-s-ove.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winecfg-Staging/0001-winecfg-Add-staging-tab-for-CSMT.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winecfg-Staging/0002-winecfg-Add-checkbox-to-enable-disable-vaapi-GPU-dec.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winecfg-Staging/0003-winecfg-Add-checkbox-to-enable-disable-EAX-support.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winecfg-Staging/0004-winecfg-Add-checkbox-to-enable-disable-HideWineExpor.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winecfg-Staging/0005-winecfg-Add-option-to-enable-disable-GTK3-theming.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wined3d-Accounting/0001-wined3d-Use-real-values-for-memory-accounting-on-NVI.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wined3d-atomic_minmax_merge/0001-wined3d-Merged-ATOMIC_IMIN-and-ATOMIC_UMIN-together.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wined3d-rotate-WINED3D_SWAP_EFFECT_DISCARD/0001-wined3d-Do-not-rotate-WINED3D_SWAP_EFFECT_DISCARD-sw.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wined3d-unset-flip-gdi/0001-wined3d-Dont-set-DDSCAPS_FLIP-for-gdi-renderer.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wined3d-wined3d_guess_gl_vendor/0001-wined3d-Also-check-for-Brian-Paul-to-detect-Mesa-gl_.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winedbg-Process_Arguments/0001-programs-winedbg-Print-process-arguments-in-info-thr.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winedevice-Default_Drivers/0001-win32k.sys-Add-stub-driver.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winedevice-Default_Drivers/0002-dxgkrnl.sys-Add-stub-driver.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winedevice-Default_Drivers/0003-dxgmms1.sys-Add-stub-driver.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winedevice-Default_Drivers/0004-programs-winedevice-Load-some-common-drivers-and-fix.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winemac.drv-no-flicker-patch/0001-winemac.drv-No-Flicker-patch.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winepulse-PulseAudio_Support/0001-winepulse.drv-Use-a-separate-mainloop-and-ctx-for-pu.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winepulse-aux_channels/0001-winepulse-Add-aux0-and-aux1-channels.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/winmm-mciSendCommandA/0001-winmm-Do-not-crash-in-Win-9X-mode-when-an-invalid-de.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wintab32-improvements/0002-wintab32-Set-lcSysExtX-Y-for-the-first-index-of-WTI_.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wintab32-improvements/0003-winex11-Handle-negative-orAltitude-values.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wintab32-improvements/0004-winex11.drv-Support-multiplex-categories-WTI_DSCTXS-.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wintab32-improvements/0005-winex11-Support-WTI_STATUS-in-WTInfo.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wintrust-WTHelperGetProvCertFromChain/0001-wintrust-Add-parameter-check-in-WTHelperGetProvCertF.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/wscript-support-d-u-switches/0001-wscript-return-TRUE-for-d-and-u-stub-switches.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/xactengine-initial/0001-x3daudio1_7-Create-import-library.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/xactengine-initial/0003-xactengine3_7-tests-Add-Global-settings-test.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/xactengine3_7-PrepareWave/0002-xactengine3_7-Implement-IXACT3Engine-PrepareStreamin.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/xactengine3_7-PrepareWave/0003-xactengine3_7-Implement-IXACT3Engine-PrepareInMemory.patch
+/home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/gitapply.sh -d . < /home/bob/buildstuff/proton-ge-rseq/wine-staging/staging/../patches/xactengine3_7-PrepareWave/0004-xactengine-Implement-IXACT3Cue-SetOutputVoiceMatrix.patch
+WINE: -STAGING- loader-KeyboardLayouts manually applied
+patching file loader/wine.inf.in
+Hunk #2 succeeded at 90 (offset 3 lines).
+Hunk #3 succeeded at 122 (offset 9 lines).
+Hunk #4 succeeded at 183 with fuzz 1 (offset 24 lines).
+Hunk #5 succeeded at 802 (offset 170 lines).
+patching file dlls/user32/input.c
+Hunk #1 succeeded at 473 with fuzz 1 (offset -24 lines).
+patching file dlls/user32/tests/input.c
+Hunk #1 succeeded at 6100 (offset 463 lines).
+Hunk #2 succeeded at 6385 (offset 621 lines).
+patching file dlls/win32u/input.c
+Hunk #1 succeeded at 1474 (offset 208 lines).
+Hunk #2 succeeded at 1488 (offset 208 lines).
+WINE: -STAGING- ntdll-Hide_Wine_Exports manually applied
+patching file dlls/ntdll/loader.c
+Hunk #1 succeeded at 89 with fuzz 2 (offset 1 line).
+Hunk #2 succeeded at 111 (offset 1 line).
+Hunk #3 succeeded at 2105 (offset 78 lines).
+Hunk #4 succeeded at 2215 (offset 78 lines).
+Hunk #5 succeeded at 2547 (offset 148 lines).
+patching file dlls/ntdll/ntdll_misc.h
+Hunk #1 succeeded at 122 (offset 5 lines).
+WINE: -STAGING- kernel32-Debugger manually applied
+patching file dlls/kernelbase/debug.c
+Hunk #1 succeeded at 638 with fuzz 1 (offset 13 lines).
+WINE: -STAGING- ntdll-ext4-case-folder manually applied
+patching file dlls/ntdll/unix/server.c
+Hunk #2 succeeded at 91 with fuzz 2 (offset 4 lines).
+Hunk #3 succeeded at 1320 (offset 163 lines).
+Hunk #4 succeeded at 1378 (offset 163 lines).
+WINE: -STAGING- user32-FlashWindowEx manually applied
+patching file dlls/user32/tests/win.c
+Hunk #1 succeeded at 10207 (offset 356 lines).
+Hunk #2 succeeded at 10258 (offset 356 lines).
+patching file dlls/win32u/window.c
+Hunk #1 succeeded at 5098 (offset 566 lines).
+Hunk #2 succeeded at 5106 with fuzz 1 (offset 566 lines).
+WINE: -STAGING- winex11-Window_Style manually applied
+patching file dlls/winex11.drv/window.c
+Hunk #1 succeeded at 502 with fuzz 1 (offset 194 lines).
+Hunk #2 succeeded at 3563 with fuzz 1 (offset 894 lines).
+WINE: -STAGING- winex11.drv-Query_server_position manually applied
+patching file dlls/winex11.drv/window.c
+Hunk #1 succeeded at 419 with fuzz 1 (offset 74 lines).
+Hunk #2 succeeded at 3543 with fuzz 2 (offset 529 lines).
+WINE: -STAGING- wininet-Cleanup manually applied
+patching file dlls/wininet/tests/http.c
+Hunk #1 succeeded at 2421 (offset 316 lines).
+Hunk #2 succeeded at 2853 (offset 321 lines).
+Hunk #3 succeeded at 4404 (offset 333 lines).
+Hunk #4 succeeded at 4432 (offset 333 lines).
+Hunk #5 succeeded at 4443 (offset 333 lines).
+patching file dlls/wininet/tests/http.c
+Hunk #1 succeeded at 2916 (offset 17 lines).
+Hunk #2 succeeded at 3640 (offset 17 lines).
+patching file dlls/wininet/tests/http.c
+Hunk #1 succeeded at 2429 (offset 316 lines).
+Hunk #2 succeeded at 2887 (offset 321 lines).
+Hunk #3 succeeded at 3664 (offset 332 lines).
+patching file dlls/wininet/http.c
+Hunk #1 succeeded at 649 (offset -5 lines).
+Hunk #2 succeeded at 679 (offset -5 lines).
+patching file dlls/wininet/tests/http.c
+Hunk #1 succeeded at 2660 (offset 297 lines).
+Hunk #2 succeeded at 3699 (offset 348 lines).
+Hunk #3 succeeded at 3708 (offset 348 lines).
+patching file dlls/wininet/http.c
+Hunk #1 succeeded at 6192 (offset 79 lines).
+WINE: -STAGING- cryptext-CryptExtOpenCER manually applied
+patching file configure.ac
+Hunk #1 succeeded at 2535 (offset 6 lines).
+patching file dlls/cryptext/Makefile.in
+patching file dlls/cryptext/cryptext.spec
+patching file dlls/cryptext/cryptext_main.c
+patching file dlls/cryptext/tests/Makefile.in
+patching file dlls/cryptext/tests/cryptext.c
+WINE: -STAGING- wineboot-ProxySettings manually applied
+patching file programs/wineboot/Makefile.in
+patching file programs/wineboot/wineboot.c
+Hunk #2 succeeded at 1236 (offset 45 lines).
+Hunk #3 succeeded at 2120 (offset 45 lines).
+WINE: -STAGING- Staging manually applied
+patching file dlls/ntdll/loader.c
+Hunk #1 succeeded at 44 (offset 1 line).
+Hunk #2 succeeded at 4171 (offset 342 lines).
+Hunk #3 succeeded at 4704 (offset 380 lines).
+Hunk #4 succeeded at 4827 with fuzz 2 (offset 415 lines).
+patching file configure.ac
+Hunk #1 succeeded at 3787 (offset -123 lines).
+WINE: -GAME FIXES- assetto corsa hud fix
+patching file dlls/dwrite/font.c
+WINE: -GAME FIXES- add file search workaround hack for Phantasy Star Online 2 (WINE_NO_OPEN_FILE_SEARCH)
+patching file dlls/ntdll/unix/file.c
+Hunk #1 succeeded at 3736 (offset 279 lines).
+Hunk #2 succeeded at 3783 (offset 279 lines).
+WINE: -GAME FIXES- add set current directory workaround for Vanguard Saga of Heroes
+patching file dlls/kernelbase/file.c
+Hunk #1 succeeded at 2896 (offset -22 lines).
+WINE: -GAME FIXES- add xinput support to Dragon Age Inquisition
+patching file dlls/win32u/input.c
+Hunk #2 succeeded at 590 (offset 19 lines).
+Hunk #3 succeeded at 635 (offset 19 lines).
+WINE: -GAME FIXES- add unsupported os popup fix for star citizen
+patching file dlls/user32/msgbox.c
+WINE: -GAME FIXES- add le mans ultimate patches
+patching file configure.ac
+Reversed (or previously applied) patch detected!  Skipping patch.
+1 out of 1 hunk ignored -- saving rejects to file configure.ac.rej
+patching file dlls/gameinput/GameInput.c
+patching file dlls/gameinput/GameInput.spec
+The next patch would create the file dlls/gameinput/Makefile.in,
+which already exists!  Skipping patch.
+1 out of 1 hunk ignored
+patching file dlls/gameinput/version.rc
+WINE: -PENDING- unity crash hotfix
+patching file dlls/dxgi/dxgi_main.c
+Hunk #1 succeeded at 245 (offset -23 lines).
+WINE: -PENDING- RegGetValueW dwFlags hotfix (R.E.A.L VR mod)
+patching file dlls/kernelbase/registry.c
+Hunk #1 succeeded at 1957 (offset 43 lines).
+Hunk #2 succeeded at 1972 (offset 43 lines).
+WINE: -PENDING- Add WINE_DISABLE_SFN option. (Yakuza 5 cutscenes fix)
+patching file dlls/ntdll/unix/file.c
+Hunk #1 succeeded at 1609 with fuzz 1 (offset 98 lines).
+patching file dlls/ntdll/unix/loader.c
+Hunk #1 succeeded at 2226 with fuzz 2 (offset 74 lines).
+Hunk #2 succeeded at 2249 (offset 73 lines).
+patching file dlls/ntdll/unix/unix_private.h
+Hunk #1 succeeded at 195 (offset 13 lines).
+WINE: -PENDING- ncrypt: NCryptDecrypt implementation (PSN Login for Ghost of Tsushima)
+patching file dlls/ncrypt/main.c
+WINE: -PENDING- quartz: backport to allow clannad videos to work
+patching file dlls/quartz/window.c
+WINE: -PENDING- add nvidia DLSS upgrade patch
+patching file dlls/kernelbase/loader.c
+Hunk #1 succeeded at 561 (offset 8 lines).
+Hunk #2 succeeded at 576 (offset 8 lines).
+patching file dlls/kernelbase/loader.c
+WINE: -PENDING- add arknights endfield fixes
+patching file dlls/wintrust/wintrust_main.c
+patching file dlls/kernel32/module.c
+patching file dlls/ntdll/unix/sync.c
+Hunk #1 succeeded at 2800 (offset -77 lines).
+WINE: -PENDING- add akibas trip undead & undressed patches
+patching file dlls/mfplat/main.c
+Hunk #1 succeeded at 56 (offset 1 line).
+Hunk #2 succeeded at 6268 (offset 1 line).
+patching file dlls/mfsrcsnk/media_source.c
+Hunk #2 succeeded at 1793 with fuzz 2 (offset 52 lines).
+patching file dlls/winegstreamer/media_source.c
+patching file include/Makefile.in
+Hunk #1 succeeded at 375 (offset -16 lines).
+patching file include/imfbytestream_read_hack.h
+patching file dlls/winegstreamer/media_source.c
+WINE: Add winepulse fast polling env variable
+patching file dlls/winepulse.drv/pulse.c
+WINE: Add an env variable to override channel count in winealsa
+patching file dlls/winealsa.drv/alsa.c
+WINE: -FSR- fullscreen hack fsr patch
+patching file dlls/win32u/fsr_spv.h
+patching file dlls/win32u/sysparams.c
+Hunk #1 succeeded at 1702 (offset 74 lines).
+Hunk #2 succeeded at 1838 (offset 74 lines).
+Hunk #3 succeeded at 1862 (offset 74 lines).
+Hunk #4 succeeded at 1903 (offset 74 lines).
+patching file dlls/win32u/vulkan.c
+Hunk #4 succeeded at 476 (offset -1 lines).
+Hunk #5 succeeded at 570 (offset -1 lines).
+Hunk #6 succeeded at 589 (offset -1 lines).
+Hunk #7 succeeded at 637 (offset -1 lines).
+Hunk #8 succeeded at 678 (offset -1 lines).
+Hunk #9 succeeded at 714 (offset -1 lines).
+Hunk #10 succeeded at 841 (offset -1 lines).
+Hunk #11 succeeded at 864 (offset -1 lines).
+Hunk #12 succeeded at 884 (offset -1 lines).
+Hunk #13 succeeded at 896 (offset -1 lines).
+Hunk #14 succeeded at 967 (offset -1 lines).
+Hunk #15 succeeded at 1045 (offset -1 lines).
+Hunk #16 succeeded at 1121 (offset -19 lines).
+Hunk #17 succeeded at 1163 (offset -19 lines).
+Hunk #18 succeeded at 1202 (offset -19 lines).
+Hunk #19 succeeded at 1342 (offset -19 lines).
+Hunk #20 succeeded at 1376 (offset -19 lines).
+Hunk #21 succeeded at 1386 (offset -19 lines).
+Hunk #22 succeeded at 1414 (offset -19 lines).
+Hunk #23 succeeded at 1446 (offset -1 lines).
+Hunk #24 succeeded at 1672 (offset -34 lines).
+patching file dlls/win32u/win32u_private.h
+Hunk #1 succeeded at 202 (offset 1 line).
+WINE: -Nvidia Reflex- Support VK_NV_low_latency2
+patching file dlls/win32u/vulkan.c
+Hunk #1 succeeded at 1072 (offset 220 lines).
+Hunk #2 succeeded at 1607 (offset 364 lines).
+Hunk #3 succeeded at 1732 (offset 364 lines).
+Hunk #4 succeeded at 1758 (offset 364 lines).
+Hunk #5 succeeded at 1860 with fuzz 1 (offset 364 lines).
+patching file include/wine/vulkan_driver.h
+WINE: -CUSTOM- Add nls to tools
+patching file tools/makedep.c
+Hunk #1 succeeded at 3867 (offset 34 lines).
+WINE: -CUSTOM Add options to disable proton media converter.
+patching file dlls/winegstreamer/media-converter/lib.c
+WINE: -CUSTOM- Downgrade MESSAGE to TRACE to remove write_watches spam
+patching file dlls/ntdll/unix/virtual.c
+Hunk #1 succeeded at 3837 (offset 65 lines).
+WINE: -CUSTOM- Add WINE_NO_WM_DECORATION option to disable window decorations so that borders behave properly
+patching file dlls/win32u/sysparams.c
+Hunk #1 succeeded at 5918 (offset 249 lines).
+WINE: -CUSTOM- Fix a crash in ID2D1DeviceContext if no target is set
+patching file dlls/d2d1/device.c
+Hunk #1 succeeded at 1867 (offset 9 lines).
+patching file dlls/d2d1/device.c
+Hunk #2 succeeded at 2577 (offset 9 lines).
+Hunk #3 succeeded at 2625 (offset 9 lines).
+patching file dlls/d2d1/device.c
+patching file dlls/d2d1/device.c
+patching file dlls/d2d1/device.c
+WINE: -CUSTOM- Add envvar to allow method=automatic to be set for video orientation in gstreamer
+patching file dlls/mfsrcsnk/media_source.c
+Hunk #2 succeeded at 2087 (offset 75 lines).
+patching file dlls/winegstreamer/wg_parser.c
+WINE: --CUSTOM-- add WINE_HOSTBLOCK envvar to allow working around some problematic anticheats (notably eac)
+patching file dlls/ws2_32/protocol.c
+WINE: -RSEQ- Enable RSEQ timeslice extension for game threads (BobZKernel)
+patching file dlls/ntdll/unix/loader.c
+Hunk #1 succeeded at 2382 (offset -6 lines).
+Hunk #2 FAILED at 2421.
+1 out of 2 hunks FAILED -- saving rejects to file dlls/ntdll/unix/loader.c.rej
+patching file dlls/ntdll/unix/thread.c
+patch: **** malformed patch at line 139:      signal_start_thread( thread_data->start, thread_data->param, suspend, teb );
+
+patching file dlls/ntdll/unix/loader.c
+Hunk #1 FAILED at 59.
+patch: **** malformed patch at line 37: 
+
+patching file dlls/winegstreamer/unixlib.c
+WINE: RUN AUTOCONF TOOLS/MAKE_REQUESTS
+server/request_trace.h updated
+~/buildstuff/proton-ge-rseq

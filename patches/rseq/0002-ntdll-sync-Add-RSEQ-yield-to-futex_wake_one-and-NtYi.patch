@@ -1,0 +1,67 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Bob <bob@localhost>
+Subject: [PATCH 2/2] ntdll/sync: Re-assert RSEQ request before each yield
+
+The kernel clears slice_ctrl.request whenever work_pending is true at
+the exit-to-usermode path. A one-time set at thread init is insufficient:
+request must be re-asserted before each cooperative yield so the kernel
+has a chance to grant the next timeslice extension.
+
+Add rseq_set_request() which refreshes request=1 via %fs-relative
+addressing (offset 28 = slice_ctrl.u.bits.request), and call it
+immediately before each __NR_rseq_slice_yield syscall in
+futex_wake_one() and NtYieldExecution().
+
+Syscall 471 (__NR_rseq_slice_yield) is the BobZKernel extension.
+---
+--- a/dlls/ntdll/unix/sync.c
++++ b/dlls/ntdll/unix/sync.c
+@@ -79,6 +79,29 @@
+ 
+ HANDLE keyed_event = 0;
+ 
++/* BobZKernel: RSEQ timeslice extension yield syscall */
++#ifndef __NR_rseq_slice_yield
++#define __NR_rseq_slice_yield 471
++#endif
++
++/* BobZKernel: Re-assert request=1 before every yield.
++ * The kernel clears request when work_pending is true, so we must refresh it
++ * before each yield call or grants will never arrive after the first clearing. */
++static inline void rseq_set_request(void)
++{
++#if defined(__linux__) && defined(__x86_64__)
++    extern ptrdiff_t __rseq_offset __attribute__((weak));
++    unsigned long fsbase;
++    volatile unsigned char *req;
++    if (!__rseq_offset) return;
++    __asm__ volatile ("mov %%fs:0, %0" : "=r" (fsbase));
++    /* slice_ctrl.request is at offsetof = 28 in the rseq_abi struct */
++    req = (volatile unsigned char *)(fsbase + __rseq_offset + 28);
++    *req = 1;
++    __asm__ volatile ("" ::: "memory");
++#endif
++}
++
+ static const char *debugstr_timeout( const LARGE_INTEGER *timeout )
+ {
+     if (!timeout) return "(infinite)";
+@@ -133,6 +156,8 @@
+ {
+     int ret;
+     ret = syscall( __NR_futex, addr, FUTEX_WAKE_PRIVATE, 1, NULL, 0, 0 );
++    rseq_set_request();
++    syscall(__NR_rseq_slice_yield);
+     return ret;
+ }
+ 
+@@ -2760,7 +2785,8 @@
+ #ifdef RUSAGE_THREAD
+     if (!ret) ret = getrusage( RUSAGE_THREAD, &u2 );
+ #endif
+-
++    rseq_set_request();
++    syscall(__NR_rseq_slice_yield);  /* BobZKernel: yield extended timeslice */
+ #ifdef RUSAGE_THREAD
+     if (!ret && u1.ru_nvcsw == u2.ru_nvcsw && u1.ru_nivcsw == u2.ru_nivcsw) return STATUS_NO_YIELD_PERFORMED;
+ #endif

@@ -1,141 +1,153 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Bob <bob@localhost>
-Date: Thu, 13 Feb 2026 19:45:00 -0500
-Subject: [PATCH] ntdll: Enable RSEQ timeslice extension for game threads
+Subject: [PATCH 1/2] ntdll: Enable RSEQ timeslice extension (BobZKernel)
 
-Enable the BobZKernel RSEQ timeslice extension feature for all Wine threads.
-Uses proper struct access matching test_grant.c reference implementation.
-Includes debug ERR() output to verify initialization.
+Add BobZKernel RSEQ timeslice extension support to ntdll:
 
-Requires Linux 6.19+ with RSEQ timeslice extension patches (BobZKernel).
+loader.c: opt the process in via prctl(PR_RSEQ_SLICE_EXTENSION,
+  PR_RSEQ_SLICE_EXTENSION_SET, PR_RSEQ_SLICE_EXT_ENABLE) at startup.
+
+thread.c: define rseq_abi struct with slice_ctrl field, rseq_get_abi()
+  helper using extern ptrdiff_t __rseq_offset (weak), and
+  init_thread_rseq_slice() called from start_thread() which sets
+  request=1 so every Wine thread participates in slice extensions.
+
+Requires BobZKernel 6.19+ with CONFIG_RSEQ_SLICE_EXTENSION=y.
 ---
- dlls/ntdll/unix/loader.c | 22 ++++++++++++++++++++++
- dlls/ntdll/unix/thread.c | 65 +++++++++++++++++++++++++++++++++++++++++++++++++++++
- 2 files changed, 87 insertions(+)
-
-diff --git a/dlls/ntdll/unix/loader.c b/dlls/ntdll/unix/loader.c
-index 087ca830251..111111111 100644
 --- a/dlls/ntdll/unix/loader.c
 +++ b/dlls/ntdll/unix/loader.c
-@@ -2388,6 +2388,26 @@ static void hacks_init(void)
+@@ -54,6 +54,9 @@
+ #ifdef HAVE_SYS_RESOURCE_H
+ # include <sys/resource.h>
+ #endif
++#ifdef __linux__
++# include <sys/prctl.h>
++#endif
+ #include <limits.h>
+ #ifdef HAVE_SYS_SYSCTL_H
+ # include <sys/sysctl.h>
+@@ -2382,6 +2385,27 @@
  #endif
  }
-
-+/* RSEQ timeslice extension constants (BobZKernel) */
-+#ifndef PR_RSEQ_SLICE_EXTENSION
-+#define PR_RSEQ_SLICE_EXTENSION         79
-+#define PR_RSEQ_SLICE_EXTENSION_SET     2
-+#define PR_RSEQ_SLICE_EXT_ENABLE        0x01
-+#endif
-+
+ 
++/* BobZKernel: Enable RSEQ timeslice extension for this process */
 +static void init_rseq_slice_extension(void)
 +{
 +#ifdef __linux__
-+    /* Enable RSEQ timeslice extension for this process (BobZKernel feature).
-+     * Silently ignored on kernels without support. */
-+    int ret = prctl(PR_RSEQ_SLICE_EXTENSION, PR_RSEQ_SLICE_EXTENSION_SET, PR_RSEQ_SLICE_EXT_ENABLE, 0, 0);
++#ifndef PR_RSEQ_SLICE_EXTENSION
++#define PR_RSEQ_SLICE_EXTENSION 79
++#endif
++#ifndef PR_RSEQ_SLICE_EXTENSION_SET
++#define PR_RSEQ_SLICE_EXTENSION_SET 2
++#endif
++#ifndef PR_RSEQ_SLICE_EXT_ENABLE
++#define PR_RSEQ_SLICE_EXT_ENABLE 0x01
++#endif
++    int ret = prctl( PR_RSEQ_SLICE_EXTENSION, PR_RSEQ_SLICE_EXTENSION_SET,
++                     PR_RSEQ_SLICE_EXT_ENABLE, 0, 0 );
 +    if (ret == 0)
-+        ERR("RSEQ: Timeslice extension ENABLED for process\n");
++        ERR( "RSEQ timeslice extension enabled\n" );
 +    else
-+        ERR("RSEQ: Timeslice extension not available (ret=%d, errno=%d)\n", ret, errno);
++        ERR( "RSEQ timeslice extension not available (ret=%d errno=%d)\n", ret, errno );
 +#endif
 +}
-+
+ 
  /***********************************************************************
   *           start_main_thread
-  */
-@@ -2401,6 +2421,8 @@ static void start_main_thread(void)
+@@ -2397,6 +2421,7 @@
+     hacks_init();
      fsync_init();
      esync_init();
-
 +    init_rseq_slice_extension();
-+
      virtual_map_user_shared_data();
      init_cpu_info();
      init_files();
-diff --git a/dlls/ntdll/unix/thread.c b/dlls/ntdll/unix/thread.c
-index 1111111111..2222222222 100644
 --- a/dlls/ntdll/unix/thread.c
 +++ b/dlls/ntdll/unix/thread.c
-@@ -1135,6 +1135,69 @@ static int get_alt_stack_zero_bits( void )
- }
-
-
-+/* RSEQ structure matching kernel/glibc definition */
-+struct rseq_slice_ctrl {
-+    union {
-+        uint32_t all;
-+        struct {
-+            uint8_t request;
-+            uint8_t granted;
-+            uint16_t __reserved;
-+        };
-+    };
-+};
-+
-+struct rseq_abi {
-+    uint32_t cpu_id_start;
-+    uint32_t cpu_id;
-+    uint64_t rseq_cs;
-+    uint32_t flags;
-+    uint32_t node_id;
-+    uint32_t mm_cid;
-+    struct rseq_slice_ctrl slice_ctrl;
-+} __attribute__((aligned(32)));
-+
-+/***********************************************************************
-+ *           init_thread_rseq_slice
-+ *
-+ * Initialize RSEQ timeslice extension for this thread (BobZKernel feature).
-+ */
+@@ -81,6 +81,50 @@
+ WINE_DECLARE_DEBUG_CHANNEL(seh);
+ WINE_DECLARE_DEBUG_CHANNEL(threadname);
+ 
++/* BobZKernel: RSEQ timeslice extension - per-thread grant request */
 +#ifdef __linux__
-+extern ptrdiff_t __rseq_offset __attribute__((weak));
-+extern unsigned int __rseq_size __attribute__((weak));
-+
-+static void init_thread_rseq_slice(void)
-+{
-+    struct rseq_abi *rseq;
-+    char *tp;
-+
-+#if defined(__x86_64__)
-+    __asm__ volatile("mov %%fs:0, %0" : "=r"(tp));
-+#elif defined(__aarch64__)
-+    __asm__ volatile("mrs %0, tpidr_el0" : "=r"(tp));
-+#else
-+    ERR("RSEQ: Architecture not supported\n");
-+    return;
++#ifndef __NR_rseq_slice_yield
++#define __NR_rseq_slice_yield 471
 +#endif
 +
-+    /* Check if glibc has registered RSEQ */
-+    if (__rseq_offset == 0) {
-+        static int warned = 0;
-+        if (!warned++) ERR("RSEQ: __rseq_offset is 0, glibc RSEQ not registered\n");
++extern ptrdiff_t __rseq_offset __attribute__((weak));
++
++struct rseq_abi {
++    unsigned int cpu_id_start;
++    unsigned int cpu_id;
++    unsigned long long rseq_cs;
++    unsigned int flags;
++    unsigned int node_id;
++    unsigned int mm_cid;
++    /* Extended fields for BobZKernel RSEQ timeslice */
++    struct {
++        union {
++            unsigned int all;
++            struct {
++                unsigned char request;
++                unsigned char granted;
++                unsigned short __reserved;
++            } bits;
++        } u;
++    } slice_ctrl;
++} __attribute__((aligned(32)));
++
++static struct rseq_abi *rseq_get_abi(void)
++{
++    unsigned long ptr;
++    if (!__rseq_offset) return NULL;
++#if defined(__x86_64__)
++    __asm__ volatile ("mov %%fs:0, %0" : "=r" (ptr));
++    return (struct rseq_abi *)(ptr + __rseq_offset);
++#elif defined(__aarch64__)
++    __asm__ volatile ("mrs %0, tpidr_el0" : "=r" (ptr));
++    return (struct rseq_abi *)(ptr + __rseq_offset);
++#else
++    (void)ptr;
++    return NULL;
++#endif
++}
++#endif /* __linux__ */
+ 
+ pthread_key_t teb_key = 0;
+ 
+@@ -1141,6 +1185,27 @@
+  *
+  * Startup routine for a newly created thread.
+  */
++/* BobZKernel: Request RSEQ timeslice extension for this thread */
++static void init_thread_rseq_slice(void)
++{
++#ifdef __linux__
++    struct rseq_abi *rseq = rseq_get_abi();
++    static int warned_once;
++
++    if (!rseq)
++    {
++        if (!warned_once)
++        {
++            warned_once = 1;
++            ERR( "RSEQ ABI unavailable in thread init (__rseq_offset=%td)\n", __rseq_offset );
++        }
 +        return;
 +    }
 +
-+    rseq = (struct rseq_abi *)(tp + __rseq_offset);
-+
-+    /* Set request bit like test_grant.c does */
-+    rseq->slice_ctrl.request = 1;
-+    __asm__ __volatile__("" ::: "memory");
-+
-+    ERR("RSEQ: Set request bit for thread (rseq=%p, cpu_id=%u, offset=%ld)\n",
-+        rseq, rseq->cpu_id, (long)__rseq_offset);
++    rseq->slice_ctrl.u.bits.request = 1;
++#endif
 +}
-+#endif
 +
- /***********************************************************************
-  *           start_thread
-  *
-@@ -1145,6 +1208,8 @@ static void start_thread( TEB *teb )
-     BOOL suspend;
-
+ static void start_thread( TEB *teb )
+ {
+     struct ntdll_thread_data *thread_data = (struct ntdll_thread_data *)&teb->GdiTebBatch;
+@@ -1148,6 +1213,7 @@
+ 
      thread_data->pthread_id = pthread_self();
-+#ifdef __linux__
-+    init_thread_rseq_slice();
-+#endif
      pthread_setspecific( teb_key, teb );
++    init_thread_rseq_slice();
      server_init_thread( thread_data->start, &suspend );
      signal_start_thread( thread_data->start, thread_data->param, suspend, teb );
---
-2.39.2
+ }
